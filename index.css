@@ -1,0 +1,245 @@
+cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	background-image: url(fotos/carbon.jpg);
+	color: #000305;
+	font-size: 87.5%;
+	/* basis font 14px */
+	font-family: 'Indie Flower', cursive;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+.body {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+	/* geen elementen die overfloaten */
+}
+
+.mainHeader nav  {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link,
+.mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover,
+.mainHeader nav a:active,
+.mainHeader nav a:active a:link,
+.mainHeader nav a:active a:link {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+}
+
+
+/*____________________________________________*/
+
+mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+	overflow: hidden;
+}
+
+.content100 {
+	width: 100%;
+	float: left;
+	align-content: center;
+}
+
+.bram {
+	width: 300px;
+	height: 200px;
+	float: right;
+}
+
+.witron,
+.handimove,
+.asco,
+.bram {
+	max-width: 100%;
+	height: auto;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin: 2% 0% 2%;
+	overflow: hidden;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin: 2% 0% 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+
+/*_____________ZIJKANT___________ */
+
+.top {
+	width: 20%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: .5% 3%;
+	margin: 3.25% 0% 2% 2%;
+		display: block;
+}
+
+.mid {
+	width: 20%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 2% 3%;
+	margin: 0% 0% 2% 2%;
+		display: block;
+}
+
+.bot {
+	width: 20%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 1.5% 3%;
+	margin: 0% 0% 2% 2%;
+	display: block;
+}
+
+.top:hover, .mid:hover, .bot:hover {
+background-color: palegreen;
+}
+
+
+
+/*_______________PORTFOLIO_______________*/
+
+.topcontentfoto {
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin: 2% 0% 2%;
+	overflow: hidden;
+}
+
+.gallerij {
+	width: 100%;
+	margin: auto;
+}
+
+.gallerij ul {
+	list-style: none;
+}
+
+.gallerij li {
+	float: left;
+	margin: 10px;
+}
+
+.gallerij img {
+	display: block;
+	padding: 4px;
+	background: grey;
+	border: 2px solid #000;
+	box-shadow: 1px 1px 2px #000;
+}
+
+.gallerij img:hover {
+	border: 2px solid #fff;
+}
+
+
+/*________CONTACT_________*/
+
+.uren {
+	float: right;
+}
+
+.topcontent form {
+	float: left;
+}
+
+
+/*________FOOTER__________*/
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: #666;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.mainFooter p {
+	width: 52%;
+	margin: .5% auto;
+	color: #FFF;
+}
+
+
+/*_______________________________*/
+
+
+/* MOBILE DEVICES*/
+
+@media screen and (min-width: 980px)
